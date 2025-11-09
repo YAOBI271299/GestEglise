@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tableau de Bord</title>
+
+  <link rel="stylesheet" href="styles/css/style-tableau_de_bord-bis.css">
+  <link rel="stylesheet" href="src/icones/css/all.css">
+</head>
+
+<body>
+  <nav>
+    <div class="logo-nom">
+      <div class="logo-image">
+        <img src="src/images/logo.png" alt="Logo">
+      </div>
+      <span class="logo_nom">FinChurch</span>
+    </div>
+
+    <div class="menu-icones">
+      <ul class="nav-liens">
+        <li><a href="menu.php"><i class="fa-regular fa-house"></i><span class="liens-menu">Tableau de bord</span></a></li>
+        <li><a href="comptabilite.php"><i class="fa-solid fa-file-invoice"></i><span class="liens-menu">Comptabilité</span></a></li>
+        <li><a href="etat.php"><i class="fa-solid fa-box-archive"></i><span class="liens-menu">État</span></a></li>
+        <li><a href="paramettre.php"><i class="fa-solid fa-gears"></i><span class="liens-menu">Paramètre</span></a></li>
+      </ul>
+
+      <ul class="mode-deconnexion">
+        <li>
+          <a href="deconnexion.php"><i class="fa-solid fa-right-from-bracket"></i><span class="liens-menu">Déconnexion</span></a>
+        </li>
+
+        <li class="mode">
+          <i id="icone-mode" class="fa-regular fa-moon"></i>
+          <span class="liens-menu">Mode sombre</span>
+          <div class="mode-sombre">
+            <span class="commutateur"></span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <script src="styles/js/script_tableau_de_bord-bis.js" defer></script>
+</body>
+</html>
